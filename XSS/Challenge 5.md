@@ -1,0 +1,11 @@
+DOM XSS in jQuery anchor href attribute sink using location.search source:
+    -This is done by XSS jQuery
+    -This is challenge occur in submit feedback page in return url
+    -$(function() {$('#backLink').attr("href", (new URLSearchParams(window.location.search)).g('returnPath'));};
+    -This is the jQurey in the website
+    -In the url of the website,it mentioned about ?returPath=/
+    -So there we need to perform our query
+    -?returnPath=javascript alert(document.cookie)
+    -returnPath : it often retun back to the previous  page of the website
+    -javascript : This is a pseudo-protocol when browser see's it it instruct to be excuted insted of new web address
+    -alert(document.cookie) : It is the javascript payload which occurs after the above code excuted
