@@ -1,4 +1,5 @@
 Diffusion through Permutation:
+
     -The flow of encryption is -->Shift Rows-->Mix column-->
     -So to decrypt it -->inv_mix_column-->inv_shift_rows-->
     - s[0][1], s[1][1], s[2][1], s[3][1] = s[1][1], s[2][1], s[3][1], s[0][1]
