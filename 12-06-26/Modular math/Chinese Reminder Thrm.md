@@ -1,4 +1,5 @@
 Chinese Remainder Theorem:
+
     -In this challenge We come to know about Chinese Remainder Theorem
         x = a1 mod m1
         x = a2 mod m2
