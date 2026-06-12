@@ -1,4 +1,5 @@
-CSRF vulnerability with no defenses.
+CSRF vulnerability with no defenses:
+
     -We use burp suite for this challenge to change the email in POST request.
     -Applications "/my-account/change-email" fails to implement any anti-CSRF measures. So it allow attacker to looged in and perform various functions
     - Create a HTML code that automatically submits a POST request to the target.
