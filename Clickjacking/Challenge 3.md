@@ -1,4 +1,5 @@
 Clickjacking with a frame buster script:
+
     -The website contains frame buster to counter the iframe attacks.
     -So to stop that attcks we use sandbox property in iframe to neutralize the frame buster.
     -sandbox="allow-forms" for neutralization
