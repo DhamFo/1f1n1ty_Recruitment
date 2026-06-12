@@ -1,4 +1,5 @@
 CSRF where token validation depends on request method:
+
     -We use burp suite for this challenge to change the email after changing the request from POST to GET.
     -Applications attempts to secure the "/my-account/change-email"using anti-CSRF tokens.
     -The server only validates the token when the request is sent via POST,When the request method is changed to GET the application skips token verification allowing to proceed.
