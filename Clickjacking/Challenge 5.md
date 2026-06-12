@@ -1,4 +1,5 @@
 Multistep clickjacking:
+
     -This challenge has two elements.
     -First delete account and confrmation page so we need two button to click
     -<style>
