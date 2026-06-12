@@ -1,4 +1,5 @@
 CSRF where token is not tied to user session:
+
     -Logged in as wiener and obtained the POST /my-account/change-email request to obtain a valid CSRF token
     -Logged in as carlos in a incognito window to use the token genreated for wiener while while logged in as carlos. 
     -And it is accepted so it is not tied to user session.
