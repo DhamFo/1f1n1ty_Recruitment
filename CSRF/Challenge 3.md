@@ -1,4 +1,5 @@
 CSRF where token validation depends on token being present:
+
     -The server should verify the CSRF token is present in the request and correct to avoid fail-open.
     -The parameter of CSRF token should be removed so that an attacker can break through via victim browser
     -Create a HTML code that automatically executes a POST request to the email update without the token parameter
