@@ -1,4 +1,5 @@
 Basic clickjacking with CSRF token protection:
+
     -This challenge is about fooling the user by replacing a page for attack.
     -<style>
         #frame{
