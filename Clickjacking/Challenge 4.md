@@ -1,4 +1,5 @@
 Exploiting clickjacking vulnerability to trigger DOM-based XSS:
+
     -This is combined attack of clickjacking and DOM-based XSS
     -We need to fill the form in url and in name parameter we use image tag to call print() function to 
     -<style>
